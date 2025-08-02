@@ -1,0 +1,60 @@
+* {
+padding: 0%;
+margin: 0%;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Nav container */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0;
+  list-style: none;
+  background-color: white;
+  font-size: 18px;
+}
+
+/* Individual nav items */
+.nav-item {
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #081446;
+  transition: color 0.3s ease;
+}
+
+/* Underline base (invisible by default) */
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, #fc226a, #8c52ff);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Show underline on hover */
+.nav-item:hover::after {
+  width: 100%;
+}
+
+/* Always show for active item */
+.nav-item.active::after {
+  width: 100%;
+}
+
+/* Optional hover text color */
+.nav-item:hover {
+  color: #fc226a;
+}
