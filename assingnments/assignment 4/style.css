@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Barlow", sans-serif;;
+}
+
+.header-contact {
+    display: flex;
+    justify-content: space-around;
+    background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    height: 100px;
+    padding-top: 30px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.contact-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.header-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    padding: 25px 0 25px 0;
+    background-color: rgb(255, 255, 255);
+    width: 1150px;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    color: rgb(8, 20, 70);
+}
+
+.brand-name {
+    width: 150px;
+    height: 35px;
+}
+
+.nav-home-btn {
+    color: #fc226a;
+}
+
+.navbar :hover {
+    color: #fc226a;
+    cursor: pointer;
+}
+
+.nav-menu-icon {
+    background-color:#FC226A;
+    width: 65px;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 1230px;
+    margin-top: -10px;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-menu-icon :hover {
+    background-color: rgba(140, 82, 255, 1);
+}
+.hero-sec {
+    background-image: url(./slider-1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-address {
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    padding-top: 200px;
+    margin-bottom: 20px;
+}
+
+.hero-address h6 {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.hero-address h1 {
+    font-size: 100px;
+    color: #fc226a;
+    font-weight: bolder;
+    
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.CONFERENCE {
+    color: #fc226a;
+    display: inline-block;
+    font-size: 60px;
+    margin-bottom: 20px;
+   
+}
+
+.hero-address2 h1 {
+    display: inline;
+    font-size: 60px;
+    margin-bottom: 50px;
+    
+}
+
+.hero-address2 {
+    margin-left: 100px;
+}
+
+.hero-address2 p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.hero-button {
+    margin-left: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.button-1 {
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.button-1:hover{
+    background: #FC226A;
+   background-color:  rgba(140, 82, 255, 1);
+   
+}
+
+.button-2 {
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    color: #fc226a;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button-2:hover{
+    background-color: #FC226A;
+    color: white;
+}
+
+
+
+/* .hover2 :hover {
+    background-color:#FC226A;
+    color: white;
+} */
+
+/* about css */
+
+.container {
+    margin-top: 80px;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px 0px 80px;
+}
+.about-img1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    
+}
+.about-img2 {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    margin-left: -220px;
+    border: 10px solid white;
+    margin-bottom: -50px;
+
+}
+.about-img3 {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 350px;
+    margin-left: -220px;
+    border: 10px solid white;
+}
+.about-card {
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    width: 120px;
+    height: 170px;
+    text-align: center;
+    align-content: center;
+    margin-top: -300px;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    margin-left: -40px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.about-data h6 {
+    color: #fc226a;
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+}
+.bullet-span1 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+}
+.bullet-span2 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+}
+.bullet-span3 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.641);
+}
+.about-bullet {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.aboutus-text {
+    margin-bottom: 20px;
+}
+.about-data h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.h1-span {
+    color:#fc226a;
+}
+.about-data p {
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+}
+.about-btn {
+    padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: -10px;
+}
+.about-button :hover {
+    background: #FC226A;
+    background-color: rgba(140, 82, 255, 1) ;
+    color: white;
+}
+.creative{
+color: rgba(252, 34, 106, 1);
+}
+.video-background{
+padding-bottom: 50px;
+}
+.video{
+display: flex;
+
+justify-items: center;
+ margin-left: 100px;
+    padding-top: -200px;
+    margin-bottom: 20px;
+}
+.about-card h3{
+font-weight: 900;
+font-size: 70px;
+}
+.about-card p{
+font-weight: 600;
+}
+.video-background{
+height: 180px;
+line-height: 60px;
+text-align: start;
+}
+.video-background{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(./for.webp);
+height: 100vh;
+color: white;
+display: flex;
+padding-left: 10%;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+
+
+ 
+
+}
+.video-background h6  {
+    max-width: 600px;
+    text-transform: uppercase;
+    font-size: 22px;
+font-weight: 700;
+margin-bottom: 15px;
+line-height: 2;
+
+
+}
+.hero-con{display: flex;
+align-items: flex-start;
+
+flex-direction: column;
+margin-top: 150px;
+margin-top: 200px;
+margin-right: 1000px;
+text-transform: uppercase;
+font-size: 50px;
+font-weight: 900;
+width: 600px;
+
+}
+
+
+
+
+
+.video-backgroundh1{
+    max-width: 600px;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: 2.5rem;
+    
+
+}
+.video-btn {
+padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: -10px;
+   flex-direction: column;
+}
+
+
+.video-button :hover{
+background: #FC226A;
+    background-color: rgba(140, 82, 255, 1) ;
+    color: white;
+}

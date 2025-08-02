@@ -1,3 +1,8 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
 header{
 display: flex;
 justify-content: space-between;
@@ -44,10 +49,7 @@ li{
 list-style: none;
 
 }
-*{
-padding: 0%;
-margin: 0%;
-}
+
 header    a{
     text-decoration: none;
     
@@ -165,21 +167,50 @@ letter-spacing: 0.5px;
 padding: 10px 15px;
 text-transform: uppercase;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
 
+ 
 
-}
- .hero button{
+ .bgpicture button{
 
 border: radius 50%; ;
 text-decoration: none;
-padding: 10px;
+padding: 1.5rem  0.5rem 0.5rem 1.5rem ;
 background-color: forestgreen;
 color:white ;
+margin-right: 1.5rem;
+border-radius: 3px;
+text-align: center;
+vertical-align: middle;
+font-size: 1rem;
+line-height: 1.5;
+
+
  }
-.hero{
+.text{
  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 nav li   :hover {
 
 color: yellow;
 }
+.hero h1 {
+align-content: center;
+
+
+}
+ .bgpicture{
+background-image: url(./bg_1.jpg.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.bgpicture{
+display: flex;
+
+}
+
+
+
+
