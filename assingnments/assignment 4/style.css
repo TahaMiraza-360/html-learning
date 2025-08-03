@@ -517,19 +517,57 @@ background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 
 .arrow:hover {
   background-color: rgba(252, 34, 106, 0.8);
 }
-.dropdown{
-    
-    display: none;
-    
+/* Drop-down link base style */
+.navbar li a {
+  text-decoration: none;
+  color: inherit;
 }
-.dropdown2 .nav-home-btn{
-    display: inline-block;
-    position: relative;
+
+/* Dropdown container (ul inside li) */
+.navbar li {
+  position: relative;
 }
-.dropdown2 .nav-item a{
-    display: block;
-    padding: 20px 25px;
-    font-size: 16px;
-    text-decoration: none;
-    text-align: center;
+
+/* Common dropdown style for all submenus */
+.navbar li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 180px;
+}
+
+/* Each dropdown list item */
+.navbar li ul.dropdown li {
+  margin-bottom: 10px;
+}
+
+.navbar li ul.dropdown li:last-child {
+  margin-bottom: 0;
+}
+
+/* Dropdown links */
+.navbar li ul.dropdown li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar li ul.dropdown li a:hover {
+  color: #fc226a;
+}
+
+/* Show dropdown on hover */
+.navbar li:hover ul.dropdown {
+  display: block;
+}
+.nav-header{
+    position: static;
 }
