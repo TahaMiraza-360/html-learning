@@ -523,12 +523,12 @@ background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 
   color: inherit;
 }
 
-/* Dropdown container (ul inside li) */
+
 .navbar li {
   position: relative;
 }
 
-/* Common dropdown style for all submenus */
+
 .navbar li ul.dropdown {
   display: none;
   position: absolute;
@@ -543,7 +543,7 @@ background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 
   min-width: 180px;
 }
 
-/* Each dropdown list item */
+
 .navbar li ul.dropdown li {
   margin-bottom: 10px;
 }
@@ -552,7 +552,7 @@ background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 
   margin-bottom: 0;
 }
 
-/* Dropdown links */
+
 .navbar li ul.dropdown li a {
   color: black;
   font-size: 16px;
@@ -564,10 +564,345 @@ background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 
   color: #fc226a;
 }
 
-/* Show dropdown on hover */
+
 .navbar li:hover ul.dropdown {
   display: block;
 }
 .nav-header{
     position: static;
+}
+.tag1{
+    background-color: #ff5252;
+    
+    
+
+}
+.box {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px 10px;
+  max-width: 320px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  margin-bottom: 150px;
+
+   
+}
+
+.box:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.tag1img img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.tag1data h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+
+.tag1data p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+  
+}
+
+.tag1btn {
+  margin-top: auto;
+}
+
+.tag1btn button {
+  
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+  
+}
+.tag1btn button i :hover {
+transform: rotate(40deg);
+transition: 0.5s ease;
+}
+.box2 {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px 10px;
+  max-width: 320px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  margin-bottom: 150px;
+
+
+   
+}
+
+.box2:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.tag2img img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.tag2data h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+
+.tag2data p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+  
+}
+
+.tag2btn {
+  margin-top: auto;
+}
+
+.tag2btn button {
+  
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+  
+}
+.tag2btn button i :hover {
+transform: rotate(40deg);
+transition: 0.5s ease;
+}
+.tags{
+display: flex;
+flex-direction: row;
+}
+.box3 {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px 10px;
+  max-width: 320px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  margin-bottom: 150px;
+
+
+   
+}
+
+.box3:hover  {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.tag3img img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.tag3data h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+
+.tag3data p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+  
+}
+
+.tag3btn {
+  margin-top: auto;
+}
+
+.tag3btn button {
+  
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+  
+}
+.tag3btn button i :hover {
+transform: rotate(40deg);
+transition: 0.5s ease;
+}
+
+
+.box4 {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px 10px;
+  max-width: 320px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  z-index: 100;
+  position: relative;
+  margin-bottom: 150px;
+
+
+   
+}
+
+.box4:hover  {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.tag4img img {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.tag4data h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+
+.tag4data p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 25px 0;
+  
+}
+
+.tag4btn {
+  margin-top: auto;
+}
+
+.tag4btn button {
+  
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-weight: 600;
+  font-size: 15px;
+
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 30px;
+   background: #FC226A;
+    background: linear-gradient(90deg, rgba(252, 34, 106, 1) 0%, rgba(140, 82, 255, 1) 100%);
+    border: none;
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+  
+}
+.tag4btn button i :hover {
+transform: rotate(40deg);
+transition: 0.5s ease;
 }
