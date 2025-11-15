@@ -741,6 +741,8 @@ transition: 0.5s ease;
 .tags{
 display: flex;
 flex-direction: row;
+justify-content: space-between;
+
 }
 .box3 {
   background: #fff;
@@ -905,4 +907,54 @@ transition: 0.5s ease;
 .tag4btn button i :hover {
 transform: rotate(40deg);
 transition: 0.5s ease;
+}
+.Schedule-sec{
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+}
+.Schedule-btn {
+  list-style: none;
+  display: flex;
+  
+
+}
+.Schedule-info  h4{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  color: #fc226a;
+  text-align: center;
+}
+.Schedule-info h2{
+  font-weight: 900;
+  font-size: 50px;
+  color:#01054C ;
+  margin-bottom: 30px;
+  text-align: center;
+ 
+  
+}
+.Schedule-info h2 span{
+  color: #FC226A;
+}
+.Schedule-btn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-bottom: 500px
+  
+  ;
+  justify-content: center;
+  
+}
+.btn1{
+  
 }
